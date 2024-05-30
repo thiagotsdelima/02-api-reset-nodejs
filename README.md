@@ -1,11 +1,11 @@
-interface User {
-  birthYear: number
-}
+# RF
+- [ ] O usuário deve poder criar um nova transação
+- [ ] O usuario deve poder obter um resumo da sua conta
+- [ ] O usuario deve poder lista todas as transacoes que ja ocorreram
+- [ ] O usuario deve poder visualizar uma transacao unica
 
-function calculateAgeOfUser(user: User) {
-return new Date().getFullYear() - user.birthYear
-}
+# RN
 
-calculateAgeOfUser({
-  birthYear: 1994
-})
+- [ ] A transacao poder ser do tipo credito que somara o valor total, ou debito subtraria
+- [ ] Deve ser possivel indentificarmos o ussuario entre as requisicoes 
+- [ ] O ussuario so pode visualizar transacoes que ele criou
