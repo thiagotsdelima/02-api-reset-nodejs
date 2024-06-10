@@ -1,7 +1,7 @@
 // eslint-disable-next-line
 import { Knex } from 'knex'
 
-declare modeule 'knex/types/tables' {
+declare module 'knex/types/tables' {
   export interface Tables {
     transactions: {
       id: string
@@ -11,4 +11,4 @@ declare modeule 'knex/types/tables' {
       session_id: string
     }
   }
-}npm run devicePixelRatio
+}
